@@ -1,0 +1,47 @@
+.feedbackContainer {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.orchidCard {
+  transition: transform 0.2s;
+}
+
+.orchidCard:hover {
+  transform: translateY(-5px);
+}
+
+.searchInput {
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+}
+
+.categorySelect {
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+}
+
+.noResults {
+  text-align: center;
+  padding: 50px;
+  color: #6c757d;
+}
+
+.ratingBadge {
+  background-color: #ffc107;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .searchInput,
+  .categorySelect {
+    margin-bottom: 15px;
+  }
+} 
